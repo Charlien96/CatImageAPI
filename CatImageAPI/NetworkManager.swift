@@ -9,9 +9,9 @@ import Foundation
 
 class NetworkManager {
     
-    func getCatImages(completionHandler:@escaping ([CatImageData])-> Void) {
+    func getCatImage(completionHandler:@escaping ([CatImageData])-> Void) {
         let session = URLSession.shared
-        let urlString = "https://api.opendota.com/api/heroStats"
+        let urlString = "https://api.thecatapi.com/v1/images/search"
         guard let url = URL(string: urlString) else {return}
         
         let dataTask = session.dataTask(with: url) {data, response, error in
