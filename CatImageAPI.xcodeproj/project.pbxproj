@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84A42E88291D0202007ED539 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A42E87291D0202007ED539 /* NetworkManager.swift */; };
+		84A42E8A291D02AA007ED539 /* CatImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A42E89291D02AA007ED539 /* CatImageData.swift */; };
 		84A770FE291BB6DF0023B04E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A770FD291BB6DF0023B04E /* AppDelegate.swift */; };
 		84A77100291BB6DF0023B04E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A770FF291BB6DF0023B04E /* SceneDelegate.swift */; };
 		84A77102291BB6DF0023B04E /* CatImageAPIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A77101291BB6DF0023B04E /* CatImageAPIViewController.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84A42E87291D0202007ED539 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		84A42E89291D02AA007ED539 /* CatImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatImageData.swift; sourceTree = "<group>"; };
 		84A770FA291BB6DF0023B04E /* CatImageAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatImageAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A770FD291BB6DF0023B04E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84A770FF291BB6DF0023B04E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +105,8 @@
 			children = (
 				84A770FD291BB6DF0023B04E /* AppDelegate.swift */,
 				84A770FF291BB6DF0023B04E /* SceneDelegate.swift */,
+				84A42E87291D0202007ED539 /* NetworkManager.swift */,
+				84A42E89291D02AA007ED539 /* CatImageData.swift */,
 				84A77101291BB6DF0023B04E /* CatImageAPIViewController.swift */,
 				84A77103291BB6DF0023B04E /* CatImageAPI.storyboard */,
 				84A77106291BB6E10023B04E /* Assets.xcassets */,
@@ -258,6 +264,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A42E8A291D02AA007ED539 /* CatImageData.swift in Sources */,
+				84A42E88291D0202007ED539 /* NetworkManager.swift in Sources */,
 				84A77102291BB6DF0023B04E /* CatImageAPIViewController.swift in Sources */,
 				84A770FE291BB6DF0023B04E /* AppDelegate.swift in Sources */,
 				84A77100291BB6DF0023B04E /* SceneDelegate.swift in Sources */,
